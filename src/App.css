@@ -27,7 +27,65 @@
 .App-link {
   color: #61dafb;
 }
+.logo-main {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
 
+.logo-main ul {
+  gap: 60px;
+  display: flex;
+}
+
+.logo-main ul li {
+  list-style-type: none;
+}
+.Ordered-list {
+  background: #282D35;
+  padding: 30px;
+}
+
+.Ordered-list h2 {
+  font-size: 34px;
+  color: #fff;
+}
+.Ordered-list ul li {
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.Ordered-list ::marker {
+  color: #61DAFB;
+  font-size:20px;
+}
+.logo-main img.Logo {
+  width: 180px;
+}
+.logo-main h3 {
+  color: #fff;
+}
+.Ordered-list{
+background-image: url('./reactjs-icon\ 2.png');
+background-repeat: no-repeat;
+    background-position: center right;
+}
+header.main-header {
+  padding: 20px 30px;
+  background: #21222A;
+}
+.Footer-main h3 {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  color: #fff;
+}
+
+
+.Footer-main {
+  background: #21222A;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
