@@ -7,7 +7,7 @@ function App() {
       <header className="main-header">  
         <div className="logo-main">
         <img src={logo} className='Logo' alt="logo" />
-        <h3>React Course - Project 1 </h3>
+        <h3>React Course - Project Rohit </h3>
         </div>
       </header>
     </div>
